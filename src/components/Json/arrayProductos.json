@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nombre": "352 Rookie CYPRESS",
+    "descripcion": "casco integral negro",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/ff352_rookie_cypress_matt_nv_blue_red31-aa69d5690cb7779ca616832000548718-640-0.webp",
+    "precio": 152000,
+    "stock": 15,
+    "categoria": "cascos"
+  },
+  {
+    "id": 2,
+    "nombre": "700 Subverter Evo GAMMAX",
+    "descripcion": "casco MX amarillo verde",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/mx700-subverter-gammax-h-v-yellow-green-11-6e9b5d31cf0da2a2ee16648224037585-640-0.webp",
+    "precio": 230000,
+    "stock": 5,
+    "categoria": "cascos"
+  },
+  {
+    "id": 3,
+    "nombre": "700 Subverter Evo ARCHED",
+    "descripcion": "casco MX negro plateado",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/mx700_subverter_evo_arched_black_silver_titanium_467003104_a1-9f7915788d2c347a7116732915371910-640-0.webp",
+    "precio": 230000,
+    "stock": 5,
+    "categoria": "cascos"
+  },
+  {
+    "id": 4,
+    "nombre": "562 Airflow CONDOR",
+    "descripcion": "casco abierto blanco negro rojo",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/ls2305625232-11-7f38f59acce4f08a3d15692662147730-640-0.webp",
+    "precio": 100000,
+    "stock": 10,
+    "categoria": "cascos"
+  },
+  {
+    "id": 5,
+    "nombre": "805 THUNDER Sputnik GL",
+    "descripcion": "casco integral negro rojo",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/ff805_thunder_sputnik_metal_red131-226be5d58a288ef7eb16884990210624-640-0.webp",
+    "precio": 900000,
+    "stock": 5,
+    "categoria": "cascos"
+  },
+  {
+    "id": 6,
+    "nombre": "370 Easy Stripe",
+    "descripcion": "casco modular negro blanco",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/ff370_stripe_white_black_frente1-29dda5c25ff5bf008715652000692478-640-0.webp",
+    "precio": 255000,
+    "stock": 15,
+    "categoria": "cascos"
+  },
+  {
+    "id": 7,
+    "nombre": "Guante DART",
+    "descripcion": "guante hombre con proteccion negro amarillo",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/guante-dart-hi-vis-amarillo-11-fea928a498642c375416051240121626-640-0.webp",
+    "precio": 75000,
+    "stock": 25,
+    "categoria": "guantes"
+  },
+  {
+    "id": 8,
+    "nombre": "Guante DART 2",
+    "descripcion": "guante mujer con proteccion rojo gris",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/whatsapp-image-2022-04-19-at-10-03-17-am-11-22a542abeb6c48da6516503766408179-640-0.webp",
+    "precio": 75000,
+    "stock": 25,
+    "categoria": "guantes"
+  },
+  {
+    "id": 9,
+    "nombre": "Guante ALL TERRAIN",
+    "descripcion": "guante con proteccion y dedo con touch screen negro",
+    "image": "https://acdn.mitiendanube.com/stores/940/460/products/guante_all_terrain_hombre_black11-f82e9b5a5c737cd6e516503712806608-640-0.webp",
+    "precio": 90000,
+    "stock": 20,
+    "categoria": "guantes"
+  }
+]
