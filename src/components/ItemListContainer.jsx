@@ -16,8 +16,8 @@ useEffect(()=>{
   try{
     const data= await new Promise((resolve)=>{
       setTimeout (()=>{
-        resolve( id ? arrayProductos.filter(item.categoria === id): arrayProductos)
-      }, 2500);     
+        resolve( id ? arrayProductos.filter(item => item.categoria === id): arrayProductos)
+      }, 1500);     
     });
     setItem(data);
   }catch(error){

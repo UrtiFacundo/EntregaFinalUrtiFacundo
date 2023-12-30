@@ -8,11 +8,11 @@ const ItemDetailContainer = () => {
     const {id} = useParams ();
   
   useEffect(()=>{
-    const promesa = new promesa((resolve)=>{
+    let promesa = new Promise((resolve)=>{
         setTimeout(()=>{
             resolve(arrayProductos.find(item=> item.id === parseInt (id)))
-        }, 2500)
-    })
+        }, 1500)
+    });
     promesa.then((data)=>{
       setItem(data)
     })
