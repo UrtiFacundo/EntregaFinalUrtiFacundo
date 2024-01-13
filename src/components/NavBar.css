@@ -1,4 +1,16 @@
-.navbar {
-    width: auto;
+.Nav {
+  display: flex;
+  
+}
+.me-auto {
+    padding: 20px;
+    margin: 15px;
     display: flex;
+    justify-content: space-between;
+    text-align: end;
+    align-items: center;
+    background-color: #ccb7c9;
+    height: 100%;
+    width: 100%;
+    color: black;
 }

@@ -3,8 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import Error from './components/Error';
-
+import Error from './components/Error'; 
 
 function App() {
   
@@ -15,11 +14,12 @@ function App() {
         <BrowserRouter>
         <NavBar />
         
-        <Routes>
+        
+        <Routes className= 'card'>
           <Route path={'/'} element={ <ItemListContainer /> } />
           <Route path={'/categoria/:id'} element={ <ItemListContainer /> } />
           <Route path={'/item/:id'} element={ <ItemDetailContainer /> } />
-          <Route path={'/*'} element={ <Error /> } />
+          <Route path={'*'} element={ <Error /> } />
 
         </Routes>
         </BrowserRouter>

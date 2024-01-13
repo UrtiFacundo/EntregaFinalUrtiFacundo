@@ -1,13 +1,14 @@
 import React from 'react'
 
+
 const ItemDetail = ({item}) => {
   return (
-    <div className= 'row'>
-     <div className='col-md-3 iifset-md-3'></div>
-     <img src={item.image} className='img-fluid' alt={item.nombre}/>
-     <h3>{item.nombre}</h3>
-     <p>{item.descripcion}</p>
-     <p>$ {item.precio}</p>
+    <div className= 'card'>
+     <div className='col-md-4 offset-md-4'>
+     <img src={item.img} className='img-fluid' alt={item.title}/></div>
+     <h3>{item.title}</h3>
+     <p>{item.description}</p>
+     <p>$ {item.price}</p>
      <p>Cantidad: {item.stock}</p>
     </div>
   )

@@ -6,9 +6,9 @@ const ItemList = (props) => {
   const { item } = props;
   return (
     <div className='row'>
-        {item.map(item =>
-            <div className= 'col-md-3' key={item.id}>
-                 <Item item={item}/>
+        {item.map(products =>
+            <div className= 'col-md-3' key={products.id}>
+                 <Item item={products}/>
 
             </div>
             )}
